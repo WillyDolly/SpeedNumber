@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpeedNumber</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_speed_number2">SpeedNumber2</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7964058081042027/7045739993</string>
+    <string name="facebook_app_id">395791650800585</string>
+    <string name="fb_login_protocol_scheme">fb395791650800585</string>
+</resources>

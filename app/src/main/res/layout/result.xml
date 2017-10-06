@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fefcfc">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:id="@+id/TVcorrect"
+        android:text="Correct"
+        android:textColor="#0a090a"
+        android:textSize="24sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/TVtime"
+        app:layout_constraintTop_toBottomOf="@+id/TVtime"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/TVtime" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:id="@+id/TVtime"
+        android:text="Time"
+        android:textColor="#0a090a"
+        android:textSize="24sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/TVstrC"
+        app:layout_constraintTop_toBottomOf="@+id/TVstrC"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/TVstrC" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:id="@+id/TVstrC"
+        android:text="String C"
+        android:textAlignment="center"
+        android:textColor="#0a090a"
+        android:textSize="24sp"
+        android:gravity="center"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/TVtitle"
+        app:layout_constraintTop_toBottomOf="@+id/TVtitle"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/TVtitle" />
+
+    <Button
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:text="Start Again"
+        android:id="@+id/BTNstart"
+        android:background="#5ef5f5"
+        android:textColor="#0a090a"
+        android:textSize="24sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVcorrect"
+        app:layout_constraintBaseline_toBaselineOf="@+id/BTNcontinue" />
+
+    <Button
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:id="@+id/BTNcontinue"
+        android:background="#5ef5f5"
+        android:textColor="#0a090a"
+        android:textSize="24sp"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/TVcorrect"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/TVtitle"
+        android:text="Title"
+        android:textSize="30sp"
+        android:textColor="#0a090a"
+        android:background="#5ef5f5"
+        android:gravity="center"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="51dp" />
+
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/BTNshare"
+        android:text="SHARE"
+        android:textColor="#0a090a"
+        android:textSize="24sp"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:background="#5ef5f5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/BTNstart" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "147631261197",
+    "firebase_url": "https://speednumber-5dab0.firebaseio.com",
+    "project_id": "speednumber-5dab0",
+    "storage_bucket": "speednumber-5dab0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147631261197:android:13d4bdeb470d6a40",
+        "android_client_info": {
+          "package_name": "com.popland.pop.speednumber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147631261197-8b8j419vk9f8q8qb0kg5126ooc20n3g7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDpZvJEkCMOF-C4l3Ne6dMxV1BgzzKUoA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
